@@ -20,11 +20,7 @@ int main() {
         n+=2;
         if (n > 4) break; // тестирование первых 2х членов
         if (fabs(a) < 1e-15) break;
-    }
  
-    cout << S << '\t'<< x-(pow(x,2)/2)+(pow(x,4)/24)<<endl;//проверка
-    //cout << S << endl;
-    return 0;
 }
 parf1x
 
